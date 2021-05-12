@@ -9,6 +9,10 @@ Simple Paper plugin that adds throwable tnt.
 Go to [Releases](https://github.com/xxneox/ThrowableTNT/releases) and download the latest jar file.  
 After restarting the server, you should see the configuration file located in **plugins/ThrowableTNT/config.yml**
 
+## Usage
+Use command /throwabletnt get <amount> to give yourself some throwable tnt.  
+You can also use /throwabletnt give <amount> <player> to give the throwable tnt to another player.
+
 ## Configuration
 ```yaml
 # Settings for the TNT item.
