@@ -1,0 +1,13 @@
+name: ThrowableTNT
+version: ${projectVersion}
+main: me.xneox.throwabletnt.ThrowableTntPlugin
+
+author: neox
+description: Adds a throwable type of TNT!
+api-version: 1.16
+
+commands:
+  throwabletnt:
+    aliases: [ throwable, dynamite ]
+    permission: throwabletnt.admin
+    permission-message: You don't have permission to get throwable TNT!

@@ -1,0 +1,15 @@
+# ThrowableTNT by neox
+# Welcome to the configuration file!
+
+# Settings for the TNT item.
+item-type: TNT
+item-name: "&cThrowable TNT!"
+item-lore:
+  - '&7Right click to throw!'
+
+# Amount of ticks before the explosion
+fuse-ticks: 40
+
+# Amount of the thrown tnt's forward velocity
+# The higher the amount, the faster and further the tnt will be thrown.
+velocity: 1.0

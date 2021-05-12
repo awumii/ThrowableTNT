@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'me.xneox'
+version '1.0.0'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://papermc.io/repo/repository/maven-public/' }
+}
+
+dependencies {
+    compileOnly 'com.destroystokyo.paper:paper-api:1.16.5-R0.1-SNAPSHOT'
+}
+
+// Fixing broken encoding on Windows.
+compileJava.options.encoding = 'UTF-8'
+
+processResources {
+    expand projectVersion: project.version
+}
